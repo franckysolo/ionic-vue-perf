@@ -1,8 +1,17 @@
 <template>
-  <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
-  </div>
+  <ion-page>
+     <ion-header>
+       <ion-toolbar class="toolbar-md-primary">
+         <ion-title>HomePage</ion-title>
+       </ion-toolbar>
+     </ion-header>
+     <ion-content class="content">
+      <div class="home">
+        <img alt="Vue logo" src="../assets/logo.png">
+        <HelloWorld msg="Welcome to Your Vue.js App"/>
+      </div>
+    </ion-content>
+  </ion-page>
 </template>
 
 <script>

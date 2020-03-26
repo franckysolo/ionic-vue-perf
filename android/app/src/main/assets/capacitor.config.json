@@ -1,0 +1,23 @@
+{
+  "appId": "com.franckysolo.development.basechat",
+  "appName": "base-chat",
+  "bundledWebRuntime": false,
+  "npmClient": "yarn",
+  "webDir": "www",
+  "cordova": {},
+  "server": {
+    "url": "http://0.0.0.0:8080",
+    "allowNavigation": [
+      "dmv.test",
+      "192.168.1.15",
+      "0.0.0.0",
+      "*.eu.ngrok.io"
+    ]
+  },
+  "android": {
+   "allowMixedContent": true,
+   "captureInput": true,
+   "webContentsDebuggingEnabled": true
+  },
+  "linuxAndroidStudioPath": "/opt/android-studio/bin/studio.sh"
+}
